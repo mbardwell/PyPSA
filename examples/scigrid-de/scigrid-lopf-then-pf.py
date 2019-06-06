@@ -76,7 +76,7 @@ import matplotlib.pyplot as plt
 #you downloaded the github repository
 #https://github.com/PyPSA/PyPSA
 
-csv_folder_name = os.path.dirname(pypsa.__file__) + "/../examples/scigrid-de/scigrid-with-load-gen-trafos/"
+csv_folder_name = "scigrid-with-load-gen-trafos/"
 
 network = pypsa.Network(csv_folder_name=csv_folder_name)
 

@@ -78,4 +78,3 @@ print(network.buses_t.v_mag_pu)
 #it from expensive generator 0, also some dispatch from cheap generator 1 has to be substituted from generator0
 #to avoid overloading line 1.
 print(network.buses_t.marginal_price)
-
